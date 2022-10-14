@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://Brick/Brick_Container.gd" type="Script" id=1]
 [ext_resource path="res://Paddle/Paddle.tscn" type="PackedScene" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://UI/HUD.tscn" type="PackedScene" id=7]
 [ext_resource path="res://UI/Instructions.tscn" type="PackedScene" id=8]
 [ext_resource path="res://Effects/Fever.gd" type="Script" id=9]
+[ext_resource path="res://Assets/Music.mp3" type="AudioStream" id=10]
 [ext_resource path="res://Assets/Wall_Sound.wav" type="AudioStream" id=11]
 [ext_resource path="res://Assets/Brick_Sound.wav" type="AudioStream" id=12]
 [ext_resource path="res://Assets/Paddle_Sound.wav" type="AudioStream" id=13]
@@ -102,6 +103,10 @@ visible = false
 
 [node name="Instructions" parent="UI" instance=ExtResource( 8 )]
 pause_mode = 2
+
+[node name="Music" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 10 )
+autoplay = true
 
 [node name="Wall_Sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 11 )
