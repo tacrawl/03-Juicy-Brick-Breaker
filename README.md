@@ -1,20 +1,24 @@
 # Brick-Breaker
 
-A starting place for Project 03
+Project 03
 
 
 ```
-# Project Name
-Context and date
+# Coffee shop break
 
-Description
+
+A simple blick block with extra added effects
 
 ## Implementation
-Which features you included
+Created using [Godot 3.5](https://godotengine.org/download)
+Assets are provided by Tamia crawley
+Sound Effect from Pixabay
+Youtube music: [no copyright music] swipesy cakewalk cute background music
 
 ## References
+none
 
 ## Future Development
-
+none 
 ## Created by
-```
+Tamia crawley
